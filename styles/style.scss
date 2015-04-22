@@ -6,3 +6,42 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 @import 'nav';
+@import 'whatWeDo';
+
+body{
+
+	font-family: 'Roboto Slab', serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Roboto Slab', serif;
+	font-weight: 300;
+	font-size:4.2em;
+	color:#FF3819;
+	text-align: center;
+	margin-bottom: 0;
+
+}
+
+h2{
+
+	font-weight: 300;
+	font-size: 20px;
+	text-align: left;
+}
+p{
+	font-size:12px;
+
+}
+.gallery img{
+
+	width: 100%;
+}
+
+.wrapper{
+	// width: 1200px;
+}
+
+.boxPadding{
+	padding:20px;
+}

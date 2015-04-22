@@ -1,0 +1,45 @@
+.container{
+	width: 800px;
+	margin: 0 auto;
+}
+
+.items{
+	float:left;
+	width: 250px;
+	position: relative;
+	margin:4px;
+}
+
+
+
+
+.overlay{
+	position: absolute;
+	display: none;
+	top: 0;
+
+}
+
+.items:hover .overlay{
+	display: block;
+	transition: all 1s;
+}
+
+.whatWeDo{
+	margin: 0 auto;
+	width: 1000px;
+	// background:#07398D;
+}
+
+
+.container p{
+	font-size: 1.6em;
+	color: grey;
+	font-weight: 300;
+	text-align: center;
+}
+
+.items p{
+	text-align: left;
+	font-size: .9em;	
+}
