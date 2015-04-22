@@ -1,0 +1,21 @@
+.nav{
+	margin: 0;
+	padding:0;
+	text-align: right;
+	// background: #07398D;
+	position: fixed;
+	right: 0px;
+	z-index: 1;
+}
+
+.nav li{
+	display: inline-block;
+}
+
+.nav a{
+	padding:15px;
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	font-weight: normal;
+}
