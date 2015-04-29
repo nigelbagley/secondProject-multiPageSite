@@ -7,10 +7,16 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 @import 'nav';
 @import 'whatWeDo';
+@import 'aboutPage';
+@import 'productsPage';
+@import 'contact';
+
 
 body{
 
-	font-family: 'Roboto Slab', serif;
+	// font-family: 'Roboto Slab', serif;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:300;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -18,19 +24,30 @@ h1, h2, h3, h4, h5, h6{
 	font-weight: 300;
 	font-size:4.2em;
 	color:#FF3819;
-	text-align: center;
+	text-align: left;
 	margin:0;
-
 }
 
 h2{
+	font-size:3.5em;
+	margin-bottom: 55px;
+	text-align: center;
+}
+
+h3{
 
 	font-weight: 300;
 	font-size: 20px;
 	text-align: left;
 }
+
+h4{
+	font-size: 1.2em;
+
+}
 p{
 	font-size:12px;
+	font-weight: 300;
 
 }
 .gallery img{
@@ -43,5 +60,68 @@ p{
 }
 
 .boxPadding{
+	padding:40px;
+}
+
+hr{
+
+	  border: 1px dotted grey;
+	  width: 100%;
+	
+}
+.footer{
+	background-image:url(../images/grey_wash_wall.png);
+	color: #fff;
 	padding:20px;
+}
+.footer p{
+
+	text-align: center;
+	font-size:11px;
+
+
+}
+
+ul{
+	color: #919191;
+}
+
+strong{
+
+	color:#FF3819;
+	font-weight: 300;
+}
+
+
+form{
+	  width: 50%;
+	  // margin:0 auto;
+	  float: right;
+}
+
+input{
+	width: 97%;
+	padding:5px;
+	border: 1px solid #919191;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+
+textarea{
+	width:97%;
+	border: 1px solid #919191;
+	border-radius: 5px;
+	padding:5px;
+}
+
+label{
+	font-family: 'Roboto Slab', serif;
+	font-weight: 300;
+	font-size:1.2em;
+	color:#FF3819;
+	margin-bottom: 5px;
+}
+
+.fa-2x{
+	margin:5px;
 }

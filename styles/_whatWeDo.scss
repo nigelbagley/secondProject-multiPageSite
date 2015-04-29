@@ -10,6 +10,17 @@
 	margin:4px;
 }
 
+.icon{
+	position: absolute;
+	top: -25px;
+	background: #FF3819;
+	width: 48px;
+	height: 48px;
+	text-align: center;
+	border-radius: 50px;
+	color:#fff;
+	left: 41%;
+}
 
 
 
@@ -27,25 +38,122 @@
 
 .whatWeDo{
 	margin: 0 auto;
-	width: 1000px;
+	width: 100%;
 	// background:#07398D;
 }
 
-
 .container p{
 	font-size: 1.1em;
-	color: grey;
+	color: rgb(145, 145, 145);
 	font-weight: 300;
-	text-align: center;
+	text-align: left;
 	margin-bottom: 40px;
+
+}
+
+.containerBack{
+	  
+	  // background:rgba(157, 153, 153, 0.11);
+	  border-radius: 5px;
+	  background-image: url(../images/paper_fibers.png);
+	  /* text-align: center; */
+	  padding: 29px;
+}
+
+.containerBack h2{
+	text-align: center;
+}
+
+.us{
+	width: 100%;
+	padding-left: 34%;
+}
+
+.container img{
+	border-radius:50%;
+	float: left;
+	position: relative;
+	top:38px;
 }
 
 .items p{
-	text-align: left;
+	text-align: center;
 	font-size: .9em;	
+}
+
+.items h3{
+	text-align: center;
 }
 
 .items img{
 	border-radius: 3%;
 
+}
+
+.button{
+	width: 15%;
+	margin: 0 auto;
+
+}
+
+a.button{
+	background: rgb(255, 56, 25);
+	padding: 15px;
+	/* margin: 0 auto; */
+	width: 25px;
+	margin: 0 auto;
+	color: white;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	border-radius: 4px;
+	transition: all 0.5s;
+}
+
+a.button:hover{
+	background:#07398d;
+}
+
+.gallery{
+	position: relative;
+	padding-top: 50px;
+}
+.testimonials{
+	  // background: rgba(145,145,145,0.23);
+	 background-image: url(../images/paper_fibers.png);
+	 width:50%;
+	 border-radius: 5px;
+	 text-align: center;
+	 padding: 20px;
+	 clear: both;
+}
+
+.testimonials h4{
+	text-align: center;
+}
+
+.gallery-cell p{
+	  position: absolute;
+	  left: 0%;
+	  top: 28px;
+	  font-size: 1.2em;
+	  color: red;
+	  margin: 0;
+	  padding: 11px;
+	  background: white;
+
+}
+
+#contain{
+	visibility: hidden;
+}
+
+#contain2{
+	visibility: hidden;
+}
+#contain3{
+	visibility: hidden;
+}
+
+span{
+	text-transform: uppercase;
 }

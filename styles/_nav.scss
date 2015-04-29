@@ -1,11 +1,26 @@
+.wrapperNav{
+	width: 100%;
+	margin:0 auto;
+	position: fixed;
+	z-index: 1;
+	// background:rgba(255, 255, 255, 0.65);
+	background:#fff;
+	border-bottom: 1px solid #07398D;
+
+}
 .nav{
 	margin: 0;
 	padding:0;
 	text-align: right;
 	// background: #07398D;
-	position: fixed;
-	right: 15px;
+	// position: absolute;
+	// right: 15%;
+	// top: 0;
+	margin-left: 200px;
 	z-index: 1;
+	font-size: 0;
+	position: relative;
+	right: 2%;
 }
 
 .nav li{
@@ -16,8 +31,56 @@
 	padding:15px;
 	display: inline-block;
 	text-decoration: none;
-	color: white;
-	font-weight: 300;
+	color: #07398d;
+	font-weight: 400;
 	font-family: 'open sans', sans-serif; 
 	text-transform: uppercase;
+	transition: all 1s;
+	font-size: 15px;
+}
+
+.nav a:hover{
+	background:#07398D;
+	color: white;
+}
+
+.nav a:active{
+	background:#07398D;
+	color: white;
+	
+}
+
+.logo img{
+
+	float: left;
+	position:relative;
+	left:2%;
+	top: 0;
+  	// left: 0%;
+  	// top:6px;
+  	// display: inline-block;
+	
+}
+
+.gallery{
+
+	padding-top: 50px;
+}
+
+.button{
+	width: 15%;
+	margin: 0 auto;
+
+}
+
+a.button{
+	background: rgb(255, 56, 25);
+	padding: 15px;
+	/* margin: 0 auto; */
+	width: 25px;
+	margin: 0 auto;
+	color: white;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	border-radius: 4px;
 }
